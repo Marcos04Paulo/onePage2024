@@ -1,0 +1,101 @@
+.section-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-color: #fff;
+}
+
+.section-info{
+  display: flex;
+  justify-content: ce;
+  align-items: center;
+  width: 750px;
+  margin-bottom: 50px;
+}
+
+.section-info h1{
+  font-size: 3.4rem;
+  color: #212529;
+  font-family: 'Osvald', sans-serif;
+  font-weight: 900;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.markRed{
+  background-color: #fff;
+  background-image: linear-gradient(120deg, #FFF3CD, #FFF3CD);
+}
+
+.section-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 100px;
+  margin-bottom: 50px;
+}
+
+.card{
+  height: 100%;
+}
+
+.icon-card{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #2f3f9f;
+}
+
+.bgColor{
+  background-color: #f2e9ac;
+}
+.bgGreen{
+  background-color: #caf0c7;
+}
+.bgPurple{
+  background-color: #ffe9f3;
+}
+.bgBlue{
+  background-color: #cdf7f6;
+}
+
+.card h3{
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: 'Osvald', sans-serif;
+  color: #212529;
+  margin-bottom: 20px;
+}
+
+.card p{
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: .1px;
+}
+
+.card a{
+  width: 120px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 90px 20px;
+  align-items: center;
+}
+
+.card a:hover{
+  color: #2b3a92;
+}
