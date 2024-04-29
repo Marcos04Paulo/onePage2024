@@ -1,0 +1,151 @@
+#about{
+  background-color: #F2FAFA;
+  padding: 100px 0;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 234px);
+  margin: auto;
+}
+
+.about-content{
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin-bottom: 70px
+}
+
+.about-title h2{
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  color: #212529;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.about-title .markBlue{
+  background-color: #F2FAFA;
+}
+
+.about-title .mark{
+  background-size: 100% 30%;
+}
+
+.about-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  margin-bottom: 50px;
+}
+
+/* dropDown */
+.about-option{
+  display: flex;
+  flex-direction: column;
+}
+
+.option{
+  display: block;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+
+.option:not(:last-child){
+  border-bottom: 1px solid #21252948;
+}
+
+.option p{
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color: #212529;
+  letter-spacing: 1.2;
+  line-height: 1.6;
+}
+
+.info-option{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  cursor: pointer;
+  height: 100%;
+}
+.info-option h4{
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  color: #212529;
+}
+
+.option img{
+  width: 20px;
+}
+
+.show{
+  display: none;
+}
+
+/* Indicators */
+
+.indicators-group{
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.indicators-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 230px;
+  width: 260px;
+  border-bottom: 1px solid #2f3f9f;
+}
+
+.indicators-item:nth-child(2) .icon{
+  background-color: #CAF0C7;
+}
+.indicators-item:nth-child(3) .icon{
+  background-color: #FFE9F3;
+}
+.indicators-item:nth-child(4) .icon{
+  background-color: #CDF7F6;
+}
+
+.indicators-item .icon{
+  background-color: #F2E9AC;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #2F3F9F;
+}
+
+.indicators-item h3{
+  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #212529;
+}
+
+.indicators-item p{
+  font-size: 1.2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6C757D;
+}

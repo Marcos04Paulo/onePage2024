@@ -1,11 +1,15 @@
 #portfolio{
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .bgPort{
   background-color: #fff;
-  padding-top: 100px;
+  padding-top: 120px;
+}
+
+.port-container{
+  padding-bottom: 100px;
 }
 
 .port-info h2{

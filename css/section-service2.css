@@ -1,12 +1,6 @@
 .bgStatic{
-  background: transparent;
   width: 100%;
-  height: 650px;
-}
-
-.bgStatic .bgOpacity{
-  background: #00000080;
-  height: 100%;
+  height: 100vh;
 }
 
 .bgOpacity{
@@ -16,6 +10,7 @@
   align-items: first baseline;
   height: 100%;
   padding-left: 120px;
+  background: #00000080;
 }
 
 .markPort{
